@@ -1,0 +1,67 @@
+
+
+
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add weapons";
+this addWeapon "CUP_lmg_m249_SQuantoon";
+this addPrimaryWeaponItem "rhsusf_acc_ACOG_MDO";
+this addPrimaryWeaponItem "rhsusf_200Rnd_556x45_box";
+this addWeapon "rhsusf_weap_glock17g4";
+this addHandgunItem "rhsusf_mag_17Rnd_9x19_JHP";
+
+comment "Add containers";
+this forceAddUniform "VSM_M81_Crye_od_pants_Camo";
+this addVest "VSM_FAPC_Operator_OGA";
+this addBackpack "CUP_B_USMC_AssaultPack";
+
+comment "Add binoculars";
+this addWeapon "ACE_VectorDay";
+
+comment "Add items to containers";
+for "_i" from 1 to 8 do {this addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 8 do {this addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_tourniquet";};
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_EntrenchingTool";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_Flashlight_MX991";
+this addItemToUniform "ItemcTabHCam";
+this addItemToUniform "ACE_splint";
+this addItemToUniform "ACE_epinephrine";
+this addItemToUniform "ACE_salineIV_500";
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+this addItemToUniform "SmokeShellGreen";
+for "_i" from 1 to 2 do {this addItemToUniform "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_CableTie";};
+this addItemToVest "ACRE_PRC152";
+for "_i" from 1 to 4 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_JHP";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiGreen";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {this addItemToVest "rhsusf_200rnd_556x45_M855_box";};
+for "_i" from 1 to 2 do {this addItemToBackpack "rhsusf_200rnd_556x45_M855_mixed_box";};
+this addHeadgear "VSM_M81_OPS";
+this addGoggles "G_Shades_Black";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ACE_Altimeter";
+this linkItem "ItemGPS";
+this linkItem "rhsusf_ANPVS_15";
+
+

@@ -1,0 +1,18 @@
+respawnOnStart = -1;
+
+class header {
+	gametype = COOP;
+	minplayers = 1;
+	maxplayers = 60;
+	playerCountMultipleOf = 1;
+};
+author = " M.M.R";
+OnLoadName = "MARSOC MARINE RAIDERS,";	
+OnLoadMission = "<t color='#b00b13'> PERSONAL RAIDERS <br /><t color='#71dd13'>Bienvenidos a MARSOC MARINE RAIDERS. Por favor, evitar generar deterioros a la infraestructura de la base. Dentro de Base recuerde utilizar frecuencia canal 50 para comunicaciones.";
+loadScreen="imagen\logo.jpg";
+overviewPicture	 ="imagen\logo.jpg";
+
+overviewText = "M.M.R"; 
+
+
+

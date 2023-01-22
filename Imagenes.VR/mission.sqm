@@ -1,0 +1,311 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=19;
+	};
+	class Camera
+	{
+		pos[]={3900.7009,9.4768391,6715.9761};
+		dir[]={0.00015154363,-0.41280645,0.91094899};
+		up[]={6.7696121e-005,0.91073835,0.41292024};
+		aside[]={1.0000989,-2.4305356e-007,-0.00016365125};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Characters_F",
+	"A3_Misc_F_Helpers",
+	"A3_Structures_F_EPB_Items_Documents",
+	"A3_Signs_F_Signs_Ad",
+	"A3_Structures_F_Civ_InfoBoards",
+	"A3_Structures_F_Bootcamp_System",
+	"A3_Structures_F_Mil_Flags",
+	"A3_Structures_F_Items_Documents"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=7;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Misc_F";
+			name="Arma 3 - 3D Aids and Helpers";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Structures_F_EPB";
+			name="Arma 3 Adapt Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Signs_F";
+			name="Arma 3 - Signs";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item4
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Structures_F_Bootcamp";
+			name="Arma 3 Bootcamp Update - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+	};
+};
+randomSeed=5192167;
+class ScenarioData
+{
+	author="Calamar";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=11;
+		class Item0
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3899.7266,5.0014391,6718.5884};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=1;
+					type="B_Soldier_unarmed_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3899.8149,5,6712.0718};
+				angles[]={0,3.2388773,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="this enableSimulation false; this setObjectTexture [0, ""imagen\sangre014.paa""]; sangre001 setVectorDirAndUp [[0,0,-1],[0,1,0]];";
+				name="sangre001";
+			};
+			id=2;
+			type="UserTexture10m_F";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3898.676,6.6490002,6729.9419};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\cuarentena.jpg""];";
+			};
+			id=5;
+			type="Land_Poster_01_F";
+			atlOffset=1.6440001;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3900.572,6.1414685,6729.98};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\cuarentena.jpg""];";
+			};
+			id=6;
+			type="SignAd_SponsorS_ARMEX_F";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3903.1819,6.0410533,6730.021};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\cuarentena.jpg""];";
+			};
+			id=7;
+			type="SignAd_Sponsor_ARMEX_F";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3908.0879,6.743187,6730.021};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\cuarentena.jpg""];";
+			};
+			id=8;
+			type="Land_Billboard_F";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3895.9961,6.4660001,6730.0142};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\cuarentena.jpg""];";
+			};
+			id=9;
+			type="UserTexture1m_F";
+			atlOffset=1.4660001;
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3892.582,6.5209999,6730.375};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\archivo.jpg""];";
+			};
+			id=10;
+			type="UserTexture_1x2_F";
+			atlOffset=1.5209999;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3884.9351,10.512,6730.0518};
+				angles[]={0,6.2720852,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\cuarentena.jpg""];";
+			};
+			id=11;
+			type="UserTexture10m_F";
+			atlOffset=5.5120001;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3913.991,8.9768047,6730.5791};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="bandera setFlagTexture ""imagen\medico.jpg"";";
+				name="bandera";
+			};
+			id=12;
+			type="Flag_Altis_F";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3899.822,5.000906,6721.563};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this setObjectTexture [0, ""imagen\cuarentena.jpg""];";
+			};
+			id=18;
+			type="Land_Photos_V1_F";
+		};
+	};
+};
