@@ -3,7 +3,7 @@ respawnOnStart = -1;
 class header {
 	gametype = COOP;
 	minplayers = 1;
-	maxplayers = 60;
+	maxplayers = 100;
 	playerCountMultipleOf = 1;
 };
 author = " M.M.R";
